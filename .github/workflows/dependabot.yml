@@ -1,4 +1,7 @@
 name: dependabot
+on: 
+  workflow_dispatch:
+
 version: 2
 updates:
   
