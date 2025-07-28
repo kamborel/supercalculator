@@ -1,0 +1,11 @@
+project_name: supercalculator
+
+builds:
+  - main: ./super_calculator
+    binary: supercalculator
+
+snapshot:
+  name_template: "dev"
+
+archives:
+  - format: tar.gz
