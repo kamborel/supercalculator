@@ -35,7 +35,7 @@ jobs:
           
       # 🔹 4. Run GoReleaser
       - name: Run GoReleaser
-        run: goreleaser release --clean
+        run: goreleaser release --snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
