@@ -1,4 +1,4 @@
-module calculator
+module github.com/kamborel/supercalculator
 
 go 1.19
 
